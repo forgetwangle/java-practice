@@ -22,8 +22,8 @@ yszl
   JRE System Library
   src
     yszl
-      ngzs.java
-      	ngzs
+      Ngzs.java
+      	Ngzs
        	   main(String[]):void
     module-info.java
       yszl
