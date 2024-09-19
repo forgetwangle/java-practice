@@ -23,6 +23,8 @@ yszl
   src
     yszl
       ngzs.java
+      	ngzs
+       	   main(String[]):void
     module-info.java
       yszl
 */
