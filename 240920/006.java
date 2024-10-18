@@ -9,7 +9,7 @@ public class Ngzs {
 		double b=0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1;
 		System.out.println(a==b);
 		System.out.println("a="+a+",b="+b);
-		System.out.println(Math.abs(a-b)<1e-6);
+		System.out.println(Math.abs(a-b)<1e-6);//Math.abs()求绝对值
 //		System.out.println(5==5.0);
 		//初始化
 		Scanner in=new Scanner(System.in);
