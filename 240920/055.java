@@ -45,5 +45,7 @@ public class Ngzs {
  *friendly
  *	(不加任何词，比如int x;时，默认是friendly的)
  *	和它位于同一个包内的其他类可以访问
+ *
+ *只有成员变量可以在前面加修饰符public、static等，本地变量不可以
  */
 
