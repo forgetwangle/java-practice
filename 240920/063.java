@@ -67,4 +67,8 @@ public class Database {
 /**
  * java中所有的类都是Object的子类，Object是java类型系统中的root(根)，这就是单根结构
  * Object类中包含一些方法，如：toString(),equals()
+ * 
+ * 查找Object的方法可以通过
+ * 	Object o=new Object();
+ *	o.//利用eclipse的自动补全机制来了解object的方法
  */
