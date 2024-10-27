@@ -18,7 +18,7 @@ public class Hello {
 			buf[i]=(byte)i;
 		}
 		try {
-			DataOutputStream out=new DataOutputStream(
+			DataOutputStream out=new DataOutputStream(//一个DataOutputStream对象是建立在一个别的流基础上的
 					new BufferedOutputStream(
 							new FileOutputStream("a.dat")));//将基本数据类型以二进制的形式写到文件里去
 //			int i=0xcafebabe;
