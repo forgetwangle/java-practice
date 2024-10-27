@@ -14,8 +14,8 @@ public class Ngzs {
 			buf[i]=(byte)i;
 		}
 		try {
-			FileOutputStream out=new FileOutputStream("a.dat");
-			out.write(buf);
+			FileOutputStream out=new FileOutputStream("a.dat");//建立FileOutputStream对象后，也就将a.dat文件建立起来了，如果已有文件就覆盖
+			out.write(buf);//将整个buf数组写出去
 			out.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -35,6 +35,8 @@ public class Ngzs {
  * 	实际工程中已经较少使用
  * 		更常用的是以在内存数据或通信数据上建立的流，如数据库的二进制数据读写或网络端口通信
  * 		具体的文件读写往往有更专业的类，比如配置文件和日志文件
+ * 
+ * a.dat中完全是以16进制表达的二进制的数据
  * 
  * 流过滤器
  * 	以一个介质流对象为基础层层构建过滤器流，最终形成的流对象能在数据的输入输出过程中，
