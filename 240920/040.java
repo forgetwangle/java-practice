@@ -70,6 +70,8 @@ public class Ngzs {
  *String用.toLowerCase()把所有字母都变成小写字母
  *String用.toUpperCase()把所有字母都变成大写字母
  *
+ *可以用Integer.parseInt(s)从String变量s中得到其所表达的整数数字；而Integer.parseInt(s, 16)从String变量s中得到其所表达的十六进制数字
+ *
  *所有的字符串都是不可变的，对它们的操作结果都是创造出新的字符串出来
  *
  *switch-case除了整数变量和常数作为判断外，也可以用字符串作为判断
